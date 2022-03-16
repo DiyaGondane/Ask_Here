@@ -1,0 +1,59 @@
+name: google_signin_example
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.7.0 <3.0.0"
+
+dependencies:
+#  cloud_firestore: ^0.13.5
+#  image_picker: ^0.6.7+2
+#  firebase_storage: ^3.1.6
+#  path: ^1.7.0
+#  uuid: ^2.1.0
+
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.0
+
+  # google sign in
+  #firebase_auth: ^0.18.3
+  #google_sign_in: ^4.5.6
+  http: ^0.13.4
+
+
+  # state management
+  provider: ^4.3.2+2
+
+  # icon of google
+  font_awesome_flutter: ^8.10.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+
+  fonts:
+    - family: Raleway
+      fonts:
+        - asset: assets/fonts/Raleway-Regular.ttf
+        - asset: assets/fonts/Raleway-Bold.ttf
+          weight: 700
+        - asset: assets/fonts/Raleway-Black.ttf
+          weight: 900
+    - family: RobotoCondensed
+      fonts:
+          - asset: assets/fonts/RobotoCondensed-Regular.ttf
+          - asset: assets/fonts/RobotoCondensed-Bold.ttf
+            weight: 700
+          - asset: assets/fonts/RobotoCondensed-Light.ttf
+            weight: 300
+          - asset: assets/fonts/RobotoCondensed-Light.ttf
+            style: italic
+  
+  
+
+  
+
