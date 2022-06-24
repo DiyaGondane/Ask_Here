@@ -1,8 +1,15 @@
 # Ask_Here
-->Ask here is a mobile application designed using FLUTTER where anyone can ask questions and add answers to already asked questions.
+->Ask here is a mobile application designed using FLUTTER where users can login to their account and can ask questions and add answers to already asked questions.
 
 ->Questions are sophisticatedly divided into certain categories with an interactive GUI for easy access to users.
 
-->Every question has some coins and whenever anyone adds an answer and if it is liked by the user who asks that question, he/she will be rewarded with certain coins and those coins will be deducted from the user's account
+->Every question costs some coins and whenever anyone adds an answer then he/she will be rewarded with those coins and the coins will be deducted from the user's account who asked that question.
+
+->A FIREBASE database is used to store the login information and also all the questions, answers and coins of the user. 
 
 ->Technologies: Dart, Flutter, Android Studio, Firebase.
+
+The Screenshots of the App is as follows:
+
+
+
